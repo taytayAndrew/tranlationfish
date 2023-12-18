@@ -1,0 +1,25 @@
+{
+  "name": "translationfish",
+  "version": "0.0.1",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "bin": {
+    "fish": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.5",
+    "@types/node": "^20.10.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "md5": "^2.3.0"
+  }
+}
